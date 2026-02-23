@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+frontend/node_modules
+backend/__pycache__
+backend/.venv
 /.pnp
 .pnp.*
 .yarn/*
@@ -39,3 +42,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# MD Files
+*.md
+
+# Secrets
+backend/service-account.json
+*.pem
+.env*
+
+# Next.js Build Output/Cache
+frontend/.next/
+node_modules/
+.turbo/
